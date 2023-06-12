@@ -1,0 +1,316 @@
+
+:root {
+    --primary-color: #000000;
+    --secondary-color: #dd9365;
+    --white: #ffffff;
+}
+
+body {
+    background-color: #000000;
+    color: var(--white);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200 !important;
+    letter-spacing: .1rem;
+}
+
+.parrafo{
+    color: rgb(255, 255, 255);
+}
+
+modal-content {
+    vertical-align: middle;
+    border-style: none;
+    height: 350px;
+}
+
+h1, h2 {
+    font-weight: 700 !important;
+}
+
+.bg-dark {
+    background-color: var(--primary-color) !important;
+}
+
+.bg-grey {
+    background-color: #000000;
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+a.text-primary:hover {
+    color: var(--primary-color) !important;
+}
+
+a {
+    color: rgba(256, 256, 256, .2);
+}
+
+a:hover {
+    color: rgba(256, 256, 256, .5);
+}
+
+.active {
+    color: var(--secondary-color);
+}
+
+.active:hover {
+    color: var(--secondary-color);
+}
+
+.logo {
+    min-width: 50px;
+    max-width: 70px;
+}
+
+.navbar {
+    min-height: 80px;
+}
+
+.nav-link, .navbar-toggler  {
+    color: rgb(255, 255, 255);
+}
+
+#hero {
+    position: relative;
+}
+.lead {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.left-border {
+    border-left: 7px solid rgba(256, 256, 256, .2);
+}
+
+.content {
+    margin-top: 5rem;
+    padding: 0 4rem;
+}
+
+.carousel-inner {
+    max-height: 100vh;
+}
+
+.carousel-button {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(256, 256, 256, .65);
+    width: 100%;
+}
+
+.video-button {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    height: 140px;
+    width: 140px;
+    font-size: 70px;
+    padding: 0px 45px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    border: 10px solid rgba(256, 256, 256, .3);
+    background-clip: padding-box;
+    z-index: 999;
+    transition: all .5s;
+}
+
+.video-button:hover {
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    top: unset;
+    bottom: 150px;
+    height: 50px;
+    width: 50px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+}
+
+.carousel-control-next {
+    right: 10px;
+}
+
+.carousel-control-prev {
+    left: 10px;
+}
+ 
+.banner {
+    width: 100%;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul, li{
+	list-style: none;
+    display: inline-flex;
+    padding: 0px 20px 5px 10px;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+tbody {
+	color: green;
+	font-size: 20px;
+}
+
+thead {
+	color: coral;
+	background-color: rgb(0, 0, 0);
+	text-align: center;
+	font-size: 40px;
+}
+
+tfoot {
+	color: rgb(255, 187, 0);
+}
+
+table {
+ 	width: 100%;
+ 	height: 100%;
+} 
+
+ table, tr, th, td {
+ 	border: 0px solid brown;
+ }
+.celda {
+	vertical-align: center;
+}
+.capa1 {
+	background-color: yellow;
+	width: 33%;
+	position: relative;
+	text-align: center;
+}
+
+.capa2 {
+	background-color: blue;
+	width: 33%;
+	position: relative;
+	text-align: center;		
+}
+
+.capa3 {
+	background-color: rgba(255, 136, 0, 0.884);
+	width: 33%;
+	position: relative;
+	text-align: center;
+} 	
+
+.capa0 {
+	display: flex;
+}	
+
+.articulos {
+	background-color: #000000;
+	width: 25%;
+	position: relative;
+	text-align: center;
+}
+
+.descripcionarticulo{
+	background-color: #000000;
+	position: relative;
+	text-align: center;
+}
+
+img {
+	width: 50%;
+	border-radius: 15px;
+}
+
+img:hover {
+	opacity: 20%;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2:hover {
+	color: rgb(255, 174, 0);
+}
+
+.nombrearticulo {
+	color: #ffae00 ;
+}
+
+.precio {
+	font-weight: bold;
+}
+
+.precio:hover {
+	font-size: 30;
+}
+
+div{
+	margin: 5;
+}
+
+.miniatura {
+	background-color: yellow;
+	width: 15%;
+	position: relative;
+	text-align: center;
+}
+
+.imagenproducto {
+	background-color: yellow;
+	width: 45%;
+	position: relative;
+	text-align: center;
+}
+
+.detallesproducto {
+	background-color: yellow;
+	width: 40%;
+	position: relative;
+	text-align: center;
+}
+.imagenproducto img:hover {
+	opacity: 80%;
+}
+
+.miniatura img:hover {
+	opacity: 59%;
+}
